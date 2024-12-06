@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./styles.css">
     <title>Alup</title>
 </head>
 <body>
@@ -80,17 +83,38 @@
         </div>
     </section>
 
-    <section class="bg-[#e5eafc] w-full flex items-center justify-center py-14">
+    <section class="bg-[#e5eafc] w-full flex-col items-center justify-center py-14 pl-40">
 
         <h2 class="font-sans text-[#5370EA] text-[34px] font-bold">A proposta Alup é totalmente customizada para sua empresa</h2>
 
         <!-- carrossel -->
 
-        <div>
-            
+    <!-- Swiper -->
+     <div>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><div class="flex items-center justify-center">
+                <img src="../assets/images/c1.png" alt="img1" >
+                <p class="text-black font-sans text-base font-normal pl-8 w-[273px] text-left">Os consultores Alup vão desenhar uma proposta totalmente customizada para sua necessidade.</p>
+            </div></div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+            <div class="swiper-slide">Slide 7</div>
+            <div class="swiper-slide">Slide 8</div>
+            <div class="swiper-slide">Slide 9</div>
         </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    </div>
+
 
 
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/src/javascript/script.js"></script>
 </body>
 </html>
