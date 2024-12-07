@@ -716,6 +716,11 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .pl-40 {
   padding-left: 10rem;
 }
@@ -771,6 +776,10 @@ video {
 
 .font-normal {
   font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .text-\[\#5370EA\] {
