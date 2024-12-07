@@ -51,7 +51,7 @@ var swiper = new Swiper(".mySwiperLogos", {
            },
            1280: {
       slidesPerView: 6,
-      spaceBetween: 40
+      spaceBetween: 20
     }
   },     
     });
