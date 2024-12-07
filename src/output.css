@@ -636,6 +636,10 @@ video {
   width: 273px;
 }
 
+.w-\[990px\] {
+  width: 990px;
+}
+
 .max-w-3xl {
   max-width: 48rem;
 }
@@ -701,6 +705,11 @@ video {
   background-color: rgb(252 165 165 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#5370ea\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(83 112 234 / var(--tw-bg-opacity, 1));
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -735,6 +744,11 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .pl-40 {
