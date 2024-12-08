@@ -18,19 +18,19 @@
     <main class="bg-cover bg-center bg-no-repeat h-[500px]" style="background-image: url('/assets/images/hero.png');">
     </main>
     <section class="bg-white w-full flex items-center justify-center">
-        <div class="max-w-screen-xl  flex-col items-start justify-center pt-20">
+        <div class="w-10/12 flex-col items-start justify-center pt-20 pb-10">
             <h1 class="text-[34px] font-extrabold font-sans text-[#5A0044]">Comece hoje a planejar a sua economia de 2025!</h1>
             <p class="text-black font-sans text-base font-extrabold pt-2">Preencha o formulário abaixo e receba em até 2 horas a sua primeira consultoria de economia em energia.</p>
             <!-- form -->
             <div class="py-12">
 
                 <form class="flex flex-col items-center ">
-                    <div class="grid grid-cols-3 gap-4 w-full max-w-3xl">
+                    <div class="grid grid-cols-3 gap-4 w-full max-w-7xl">
                         <!-- Estado -->
                         <div class="relative">
                             <select
-                                class="font-sans w-full bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-pink-500">
-                                <option disabled selected>Estado</option>
+                                class="font-sans w-full text-base bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-[#FF0049]">
+                                <option disabled selected class="text-center">Estado</option>
                                 <option>SP</option>
                                 <option>RJ</option>
                                 <option>MG</option>
@@ -40,8 +40,8 @@
                         <!-- Cidade -->
                         <div class="relative">
                             <select
-                                class="font-sans w-full bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-pink-500">
-                                <option disabled selected>Cidade</option>
+                                class="font-sans text-base w-full bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-[#FF0049]">
+                                <option disabled selected class="text-center">Cidade</option>
                                 <option>São Paulo</option>
                                 <option>Rio de Janeiro</option>
                                 <option>Belo Horizonte</option>
@@ -51,8 +51,8 @@
                         <!-- Segmento -->
                         <div class="relative">
                             <select
-                                class="w-full font-sans bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-pink-500">
-                                <option disabled selected>Segmento</option>
+                                class="w-full text-base font-sans bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-[#FF0049]">
+                                <option disabled selected class="text-center">Segmento</option>
                                 <option>Comércio</option>
                                 <option>Serviços</option>
                                 <option>Indústria</option>
@@ -61,20 +61,20 @@
                 
                         <!-- Telefone -->
                         <input type="text" placeholder="Telefone"
-                            class="font-sans w-full bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-pink-500" />
+                            class="font-sans w-full bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-[#FF0049] text-center" />
                 
                         <!-- Nome do Contato -->
                         <input type="text" placeholder="Nome do contato"
-                            class="font-sans w-full bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-pink-500" />
+                            class="font-sans text-center w-full bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-[#FF0049]" />
                 
                         <!-- Nome da Empresa -->
                         <input type="text" placeholder="Nome da empresa"
-                            class="font-sans w-full bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-pink-500" />
+                            class="font-sans text-center w-full bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-[#FF0049]" />
                     </div>
                 
                     <!-- Botão -->
                     <button type="submit"
-                        class="font-sans mt-12 bg-[#FF0049] text-white font-light py-3 px-6 rounded-md hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-pink-700">
+                        class="font-sans mt-12 bg-[#FF0049] text-white font-light py-3 px-6 rounded-md hover:bg-[#520042] focus:outline-none focus:ring-2 focus:ring-pink-700">
                         QUERO FALAR COM UM <span class="font-extrabold">ESPECIALISTA ALUP</span>
                     </button>
                 </form>
@@ -83,14 +83,14 @@
         </div>
     </section>
 
-    <section class="bg-[#e5eafc] w-full flex-col items-center justify-center py-14 pl-40">
+    <section class="bg-[#e5eafc] w-full flex-col items-center justify-center py-14 ">
 
-        <h2 class="font-sans text-[#5370EA] text-[34px] font-bold">A proposta Alup é totalmente customizada para sua empresa</h2>
+        <h2 class="font-sans text-[#5370EA] text-[34px] font-bold pl-40">A proposta Alup é totalmente customizada para sua empresa</h2>
 
         <!-- carrossel -->
 
     <!-- Swiper -->
-     <div class="flex justify-start items-start -full">
+     <div class="flex justify-start items-start w-full pl-40">
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide"><div class="flex items-center justify-start">
@@ -122,11 +122,18 @@
         <div class="swiper-pagination"></div>
     </div>
     </div>
+    <!-- Botão -->
+     <div class="flex items-center justify-center">
+    <button href="#" target="_blank"
+        class="font-sans mt-12 bg-[#FF0049] text-white font-bold py-3 px-6 rounded-md hover:bg-[#520042] focus:outline-none focus:ring-2 focus:ring-pink-700">
+        SOLICITAR PROPOSTA
+    </button>
+    </div>
     </section>
 
     <section class="bg-[#5370ea] py-14 bg-cover bg-center bg-no-repeat h-[548px] flex flex-col items-center justify-center w-full"
         style="background-image: url('/assets/images/logo-transp.png')">
-        <div class="w-[990px] text-left flex justify-center">
+        <div class="w-10/12 text-left flex justify-center">
             <h3 class="font-sans text-white text-[34px] font-bold">
                 Com Alup você tem mais que economia de energia, você tem projeto
                 customizado.
@@ -147,7 +154,7 @@
     </section>
     
     <section class="bg-white w-full flex items-center justify-center">
-        <div class="max-w-screen-xl  flex items-start justify-between py-20">
+        <div class="w-10/12 flex items-start justify-between py-20">
             <div class="flex flex-col items-start justify-center w-1/2">
                 <h3 class="text-[34px] font-extrabold font-sans text-[#5370EA]">Quem já economiza com Alup</h3>
                 <p class="text-black font-sans text-base font-extrabold pt-2">Economize também migrando o seu fornecimento de energia para o mercado livre de energia.</p>
@@ -164,7 +171,7 @@
     </section>
 
     <!-- carrosel logos -->
-    <section>
+    <section class="pb-20 ">
 <!-- Swiper -->
 <div class="flex justify-center items-center w-full">
     <div class="swiper mySwiperLogos">
@@ -206,7 +213,7 @@
             </div>
 
         </div>
-        <div class="swiper-pagination"></div>
+        <!-- <div class="swiper-pagination"></div> -->
     </div>
 </div>
 
@@ -282,7 +289,7 @@
 </section>
 
 <section class="bg-white w-full flex items-center justify-center">
-    <div class="max-w-screen-xl  flex-col items-start justify-center pt-20">
+    <div class="w-10/12 flex-col items-start justify-center pt-20 pb-10">
         <h1 class="text-[34px] font-extrabold font-sans text-[#5A0044]">É muito fácil contratar
         </h1>
         <p class="text-black font-sans text-base font-extrabold pt-2">Preencha o formulário abaixo e receba em até 2 horas a sua primeira consultoria de economia em energia.</p>
@@ -290,12 +297,12 @@
         <div class="py-12">
 
             <form class="flex flex-col items-center ">
-                <div class="grid grid-cols-3 gap-4 w-full max-w-3xl">
+                <div class="grid grid-cols-3 gap-4 w-full max-w-7xl">
                     <!-- Estado -->
                     <div class="relative">
                         <select
-                            class="font-sans w-full bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-pink-500">
-                            <option disabled selected>Estado</option>
+                            class="font-sans w-full text-base bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-[#FF0049]">
+                            <option disabled selected class="text-center">Estado</option>
                             <option>SP</option>
                             <option>RJ</option>
                             <option>MG</option>
@@ -305,8 +312,8 @@
                     <!-- Cidade -->
                     <div class="relative">
                         <select
-                            class="font-sans w-full bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-pink-500">
-                            <option disabled selected>Cidade</option>
+                            class="font-sans text-base w-full bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-[#FF0049]">
+                            <option disabled selected class="text-center">Cidade</option>
                             <option>São Paulo</option>
                             <option>Rio de Janeiro</option>
                             <option>Belo Horizonte</option>
@@ -316,8 +323,8 @@
                     <!-- Segmento -->
                     <div class="relative">
                         <select
-                            class="w-full font-sans bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-pink-500">
-                            <option disabled selected>Segmento</option>
+                            class="w-full text-base font-sans bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-[#FF0049]">
+                            <option disabled selected class="text-center">Segmento</option>
                             <option>Comércio</option>
                             <option>Serviços</option>
                             <option>Indústria</option>
@@ -326,20 +333,20 @@
 
                     <!-- Telefone -->
                     <input type="text" placeholder="Telefone"
-                        class="font-sans w-full bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-pink-500" />
+                        class="font-sans w-full bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-[#FF0049] text-center" />
 
                     <!-- Nome do Contato -->
                     <input type="text" placeholder="Nome do contato"
-                        class="font-sans w-full bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-pink-500" />
+                        class="font-sans text-center w-full bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-[#FF0049]" />
 
                     <!-- Nome da Empresa -->
                     <input type="text" placeholder="Nome da empresa"
-                        class="font-sans w-full bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-pink-500" />
+                        class="font-sans text-center w-full bg-[#F1F1F1] p-3 rounded-md text-[#636363] focus:outline-none focus:ring-2 focus:ring-[#FF0049]" />
                 </div>
 
                 <!-- Botão -->
                 <button type="submit"
-                    class="font-sans mt-12 bg-[#FF0049] text-white font-light py-3 px-6 rounded-md hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-pink-700">
+                    class="font-sans mt-12 bg-[#FF0049] text-white font-light py-3 px-6 rounded-md hover:bg-[#520042] focus:outline-none focus:ring-2 focus:ring-pink-700">
                     QUERO FALAR COM UM <span class="font-extrabold">ESPECIALISTA ALUP</span>
                 </button>
             </form>
@@ -348,40 +355,199 @@
     </div>
 </section>
 
-<section class="bg-white w-full flex items-center justify-center">
-    <div class="max-w-screen-xl flex-col items-center justify-center pt-20">
+<section class="bg-white w-full flex items-center justify-center pb-16">
+    <div class="w-10/12 flex-col items-center justify-center pt-20">
         <h1 class="text-[34px] font-extrabold font-sans text-[#5A0044]">Entenda as etapas do atendimento técnico Alup
         </h1>
         <p class="text-black font-sans text-base font-extrabold pt-2">É assim que construímos a sua proposta. Customizada para você!</p>
-        <!-- form -->
-        <div class="py-12 flex items-center justify-between">
-            <div class="flex flex-col items-center justify-center w-[165px]">
+    
+        <div class="py-12 flex items-start justify-between space-x-14">
+            <!-- Primeiro Item -->
+            <div class="flex flex-col items-center justify-center w-[165px] text-center">
                 <img src="../assets/images/icone1.png" alt="icone 1">
-                <p class="text-[#5A0044] font-sans text-base font-normal pt-2 text-center">Identificamos a possibilidade de migração imediata conforme a regulação atual (MME).</p>
+                <p class="text-[#5A0044] font-sans text-base font-normal pt-2">
+                    Identificamos a possibilidade de migração imediata conforme a regulação atual (MME).
+                </p>
             </div>
-            <img src="../assets/images/seta.png" alt="seta">
-            <div class="flex flex-col items-center justify-center w-1/3 text-center">
+        
+            <!-- Primeira Seta -->
+            <img src="../assets/images/seta.png" alt="seta" class="mt-12">
+        
+            <!-- Segundo Item -->
+            <div class="flex flex-col items-center justify-center w-[165px] text-center">
                 <img src="../assets/images/icone2.png" alt="icone 2">
-                <p class="text-[#5A0044] font-sans text-base font-normal pt-2 text-center">Decupagem, entendimento e avaliação da conta de energia.</p>
+                <p class="text-[#5A0044] font-sans text-base font-normal pt-2">
+                    Decupagem, entendimento e avaliação da conta de energia.
+                </p>
             </div>
-            
-            <img src="../assets/images/seta.png" alt="seta">
-            <div class="flex flex-col items-center justify-center w-1/3 text-center">
+        
+            <!-- Segunda Seta -->
+            <img src="../assets/images/seta.png" alt="seta" class="mt-12">
+        
+            <!-- Terceiro Item -->
+            <div class="flex flex-col items-center justify-center w-[165px] text-center">
                 <img src="../assets/images/icone3.png" alt="icone 3">
-                <p class="text-[#5A0044] font-sans text-base font-normal pt-2 text-center">Proposta<br>
-                de valor</p>
+                <p class="text-[#5A0044] font-sans text-base font-normal pt-2">
+                    Proposta<br>de valor
+                </p>
             </div>
-
-                <img src="../assets/images/seta.png" alt="seta">
-                <div class="flex flex-col items-center justify-center w-1/3 text-center">
-                    <img src="../assets/images/icone4.png" alt="icone 4">
-                    <p class="text-[#5A0044] font-sans text-base font-normal pt-2 text-center">Avaliação das<br>
-                    instalações físicas</p>
-                </div>         
-
+        
+            <!-- Terceira Seta -->
+            <img src="../assets/images/seta.png" alt="seta" class="mt-12">
+        
+            <!-- Quarto Item -->
+            <div class="flex flex-col items-center justify-center w-[165px] text-center">
+                <img src="../assets/images/icone4.png" alt="icone 4">
+                <p class="text-[#5A0044] font-sans text-base font-normal pt-2">
+                    Avaliação das<br>instalações físicas
+                </p>
+            </div>
         </div>
+
     </div>
 </section>
+
+<section class="bg-[#EFEFEF] w-full flex items-start justify-center pb-16 bg-cover bg-top-center bg-no-repeat" style="background-image: url('/assets/images/logo-meio.png');">
+    <div class="w-10/12 flex flex-col items-start justify-start pt-10">
+        <h1 class="text-[34px] font-extrabold font-sans text-[#5A0044]">Somos a Alup
+        </h1>
+        <p class="text-black font-sans text-base font-normal pt-6">A Alup é a comercializadora de energia da Alupar Holding S.A., que atua a mais de 50 anos no mercado de energia elétrica
+        e geramos energia para abastecer mais de 2 milhões de unidades consumidoras. Possuímos classificação AAA no Fitch
+        Ratings e atualmente estamos no Brasil, Colômbia, Peru e Chile.
+</p>
+<p class="text-black font-sans text-base font-normal pt-6">Fazemos parte da Alupar, uma holding de controle nacional privado, com atuação no setor de energia, mais especificamente
+nos segmentos de transmissão e geração, tendo como objetivo o desenvolvimento e investimento em projetos no Brasil e nos
+demais países da América Latina. Somos a maior companhia nacional 100% privada no segmento de Transmissão do Setor
+Elétrico no Brasil.
+</p>
+
+<p class="text-black font-sans text-base font-normal pt-6">A Alupar possui a concessão de 35 sistemas de transmissão, totalizando mais de 9 mil km de linhas de transmissão, por
+meio de concessões com prazo de 30 anos, localizados no Brasil, Peru e concessão vitalícia na Colômbia e Chile.
+
+</p>
+
+<p class="text-black font-sans text-base font-normal pt-6">No segmmento de geração de energia elétrica e alinhada à sustentabilidade das fontes renováveis, a Alupar detém a concessão/autorização
+    de 16 projetos de geração de energia, que totalizam 798,5 MW de capacidade instalada, distribuidos em 4UHEs, 4PCHs e 7 parques Eólicos e uma usinação
+Fotovoltaica.
+</p>           
+        
+
+    </div>
+</section>
+
+<section class="bg-[#EFEFEF] w-full flex items-start justify-center pb-16">
+    <div class="w-10/12 flex flex-col items-start justify-start pt-10">
+        <h1 class="text-[34px] font-extrabold font-sans text-[#5A0044]">FAQ
+        </h1>
+        <!-- Accordion Item 1 -->
+        <div class="w-full bg-white rounded-xl border-[#5A0044] border-2 py-3 px-6 mt-5">
+            <button onclick="toggleAccordion(1)" class="w-full flex justify-between items-center">
+                <span class="font-sans text-[#5A0044] text-[25px] font-bold">Como é calculada a economia simulada?</span>
+                <span id="icon-1" class="text-black transition-transform duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                        <path
+                            d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z" />
+                    </svg>
+                </span>
+            </button>
+            <div id="content-1" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                <div class="pb-5 text-base text-black mt-2">
+                    Material Tailwind is a framework that enhances Tailwind CSS with additional styles and components.
+                </div>
+            </div>
+        </div>
+        
+        <!-- Accordion Item 2 -->
+        <div class="w-full bg-white rounded-xl border-[#5A0044] border-2 py-3 px-6 mt-5">
+            <button onclick="toggleAccordion(2)" class="w-full flex justify-between items-center">
+                <span class="font-sans text-[#5A0044] text-[25px] font-bold">O que muda nas minhas instalações?</span>
+                <span id="icon-2" class="text-black transition-transform duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                        <path
+                            d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z" />
+                    </svg>
+                </span>
+            </button>
+            <div id="content-2" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                <div class="pb-5 text-base text-black mt-2">
+                    Material Tailwind is a framework that enhances Tailwind CSS with additional styles and components.
+                </div>
+            </div>
+        </div>
+        
+        <!-- Accordion Item 3 -->
+        <div class="w-full bg-white rounded-xl border-[#5A0044] border-2 py-3 px-6 mt-5">
+            <button onclick="toggleAccordion(3)" class="w-full flex justify-between items-center">
+                <span class="font-sans text-[#5A0044] text-[25px] font-bold">Quais os benefícios de migrar para o mercado livre de energia?</span>
+                <span id="icon-3" class="text-black transition-transform duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                        <path
+                            d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z" />
+                    </svg>
+                </span>
+            </button>
+            <div id="content-3" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                <div class="pb-5 text-base text-black mt-2">
+                    Material Tailwind is a framework that enhances Tailwind CSS with additional styles and components.
+                </div>
+            </div>
+        </div>
+
+            <!-- Accordion Item 4 -->
+            <div class="w-full bg-white rounded-xl border-[#5A0044] border-2 py-3 px-6 mt-5">
+                <button onclick="toggleAccordion(4)" class="w-full flex justify-between items-center">
+                    <span class="font-sans text-[#5A0044] text-[25px] font-bold">Qual é a economia esperada?</span>
+                    <span id="icon-4" class="text-black transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                            <path
+                                d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z" />
+                        </svg>
+                    </span>
+                </button>
+                <div id="content-4" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                    <div class="pb-5 text-base text-black mt-2">
+                        Material Tailwind is a framework that enhances Tailwind CSS with additional styles and components.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accordion Item 5 -->
+            <div class="w-full bg-white rounded-xl border-[#5A0044] border-2 py-3 px-6 mt-5">
+                <button onclick="toggleAccordion(5)" class="w-full flex justify-between items-center">
+                    <span class="font-sans text-[#5A0044] text-[25px] font-bold">Por que escolher a Alup?</span>
+                    <span id="icon-5" class="text-black transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                            <path
+                                d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z" />
+                        </svg>
+                    </span>
+                </button>
+                <div id="content-5" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                    <div class="pb-5 text-base text-black mt-2">
+                        Material Tailwind is a framework that enhances Tailwind CSS with additional styles and components.
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</section>
+
+<section class=" bg-[#EFEFEF] w-full flex items-start justify-center bg-cover bg-center bg-no-repeat h-[430px]"
+    style="background-image: url('/assets/images/pink.png');">
+
+    <div class="w-10/12 flex flex-col items-center justify-center mt-28">
+        <p class="font-sans text-white text-[40px] font-bold text-center w-[700px]">Transforme seu consumo de energia. Transforme seu negócio!
+</p>
+<div class="flex items-center justify-between mt-20 w-full">
+    <img src="/assets/images/logo-alup.png" alt="logo">
+    <div class="flex items-center justify-between w-[130px]"><a hrf="https://www.instagram.com/alup.io/" target="_blank"><img src="/assets/images/instagram.png" alt="instagram"></a>
+        <a hrf="https://www.linkedin.com/company/alup-io" target="_blank"><img src="/assets/images/linkedin.png" alt="linkedin"></a>
+    </div>
+</div>
+    </div>
+</section>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="/src/javascript/script.js"></script>
