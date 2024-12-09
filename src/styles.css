@@ -16,6 +16,16 @@
       padding-top:50px;
     }
 
+    .swiper-pagination3{
+      position: relative;
+      bottom: 5px;
+      color: #fff;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      margin-top:20px;
+    }
+
      /* main {
     background-image: url('/assets/images/hero.png');
     background-size: cover;

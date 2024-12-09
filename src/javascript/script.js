@@ -27,11 +27,12 @@ var swiper = new Swiper(".swiper", {
   },     
 });
     
-var swiper = new Swiper(".mySwiperLogos", {
+var swiper2 = new Swiper(".swiper2", {
     loop: true,
       pagination: {
          el: ".swiper-pagination",
-          clickable: true,
+        clickable: true,
+        
      },
        breakpoints: {
     // when window width is >= 320px
@@ -50,16 +51,16 @@ var swiper = new Swiper(".mySwiperLogos", {
       spaceBetween: 30
            },
            1280: {
-      slidesPerView: 6,
-      spaceBetween: 20
+      slidesPerView: 5,
+      spaceBetween: 10
     }
   },     
 });
     
-var swiper = new Swiper(".mySwiperTird", {
+var swiper3 = new Swiper(".mySwiperTird", {
     loop: true,
       pagination: {
-         el: ".swiper-pagination",
+         el: ".swiper-pagination3",
           clickable: true,
      },
        breakpoints: {
