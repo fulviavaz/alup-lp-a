@@ -68,7 +68,8 @@ var swiper3 = new Swiper(".mySwiperTird", {
     320: {
       slidesPerView: 2,
       spaceBetween: 30
-    },
+         },
+         
     // when window width is >= 480px
     480: {
       slidesPerView: 4,
